@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Roundabout_Example' do
+  pod 'Roundabout', :path => '../'
+
+  target 'Roundabout_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
