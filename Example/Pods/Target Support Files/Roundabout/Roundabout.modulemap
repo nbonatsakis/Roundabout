@@ -1,0 +1,6 @@
+framework module Roundabout {
+  umbrella header "Roundabout-umbrella.h"
+
+  export *
+  module * { export * }
+}

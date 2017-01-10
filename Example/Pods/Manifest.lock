@@ -1,0 +1,16 @@
+PODS:
+  - Roundabout (0.1.0)
+
+DEPENDENCIES:
+  - Roundabout (from `../`)
+
+EXTERNAL SOURCES:
+  Roundabout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Roundabout: da4e38dd4dcfd2f3ddca91998fddaee6f966ef86
+
+PODFILE CHECKSUM: f533d964660289a218c3b49b7ce53b437bdcf07a
+
+COCOAPODS: 1.1.1

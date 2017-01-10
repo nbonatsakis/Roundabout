@@ -1,0 +1,22 @@
+{
+  "name": "Roundabout",
+  "version": "0.1.0",
+  "summary": "A short description of Roundabout.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/Roundabout",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Nick Bonatsakis": "nbonatsakis@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/Roundabout.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Roundabout/Classes/**/*"
+}
