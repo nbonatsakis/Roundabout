@@ -29,14 +29,18 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
-  s.source_files = 'Roundabout/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'Roundabout' => ['Roundabout/Assets/*.png']
-  # }
+  s.default_subspec = 'Core'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'Core' do |core|
+    core.source_files = 'Roundabout/Classes/Core/**/*'
+  end
+
+  s.subspec 'MailChimp' do |mc|
+    mc.source_files = 'Roundabout/Classes/MailChimp/**/*'
+  	mc.dependency 'RMStore/Core'
+  	mc.dependency 'ChimpKit'
+  	mc.dependency 'PKHUD'
+  end
+  
 end
